@@ -18,7 +18,6 @@ from django.utils import six
 
 from .users import UserModel, UserModelString
 
-
 SHA1_RE = re.compile('^[a-f0-9]{40}$')
 
 

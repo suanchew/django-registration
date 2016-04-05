@@ -11,8 +11,8 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.sessions',
     'django.contrib.contenttypes',
-    'registration',
     'test_app',
+    'registration',
 )
 
 DEBUG = True
@@ -44,6 +44,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
