@@ -6,12 +6,13 @@ DATABASES = {
 }
 
 INSTALLED_APPS = (
+    'test_app',
     'django.contrib.auth',
     'django.contrib.admin',
     'django.contrib.sites',
     'django.contrib.sessions',
     'django.contrib.contenttypes',
-    'test_app',
+#    'test_app',
     'registration',
 )
 
