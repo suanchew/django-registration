@@ -24,7 +24,8 @@ SECRET_KEY = '_'
 
 SITE_ID = 1
 
-ROOT_URLCONF = 'test_app.urls_default'
+#ROOT_URLCONF = 'test_app.urls_default'
+ROOT_URLCONF = 'test_app.urls_simple'
 
 TEMPLATES = [
     {

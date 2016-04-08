@@ -8,6 +8,8 @@ urlpatterns = [
         TemplateView.as_view(template_name='index.html'),
         name='index'),
 
+    url(r'^poll/', include('test_app.poll_urls', namespace='test_app')),
+
     url(r'^accounts/',
         include('registration.backends.simple.urls')),
 
